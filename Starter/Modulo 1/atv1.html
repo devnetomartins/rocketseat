@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            function retornaString(obj){
+                var string = "O usuário mora em " + 
+                obj.cidade + " / "+obj.uf+", no bairro "+
+                obj.bairro+', na rua "'+obj.rua+'" com nº'+obj.numero;
+
+                return string
+            }
+
+            var endereco = {
+                rua: "Rua dos pinheiros",
+                numero: 1293,
+                bairro: "Centro",
+                cidade: "São Paulo",
+                uf: "SP"
+            };
+
+            console.log(retornaString(endereco));
+    
+        </script>
+    </body>
+</html>
