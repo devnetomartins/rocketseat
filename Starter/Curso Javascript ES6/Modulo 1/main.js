@@ -1,0 +1,5 @@
+alert('teste');
+
+class Teste {
+    
+}
